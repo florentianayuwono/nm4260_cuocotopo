@@ -15,7 +15,6 @@ var _input_magnitude = (_is_left_key != _is_right_key) || (_is_up_key != _is_dow
 h_speed = lengthdir_x(_input_magnitude * speed_walk, _input_direction);
 v_speed = lengthdir_y(_input_magnitude * speed_walk, _input_direction);
 
-x += h_speed;
-y += v_speed;
+player_collision();
 
 

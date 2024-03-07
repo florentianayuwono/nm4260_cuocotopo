@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "chefSprite",
-  "bbox_bottom": 1020,
+  "bbox_bottom": 79,
   "bbox_left": 0,
-  "bbox_right": 810,
+  "bbox_right": 63,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c42ebafc-4481-4506-871b-9448b82f898a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"69465e72-efd9-4355-aa48-2f6e32ff6c08",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 1024,
+  "height": 80,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1b1d7a63-9009-4cde-85bf-352826879433","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d56d49a9-e6b7-430f-92e2-5886070de55c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "cuocotopo",
-    "path": "cuocotopo.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c42ebafc-4481-4506-871b-9448b82f898a","path":"sprites/chefSprite/chefSprite.yy",},},},"Disabled":false,"id":"2ba70175-8f68-4b42-ba5f-73cf6d34a19f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"69465e72-efd9-4355-aa48-2f6e32ff6c08","path":"sprites/chefSprite/chefSprite.yy",},},},"Disabled":false,"id":"58a8c06f-f9b6-4306-a0a7-ba6dea19a651","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 815,
+  "width": 64,
 }

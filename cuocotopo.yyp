@@ -34,9 +34,13 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"macros","path":"scripts/macros/macros.yy",},},
+    {"id":{"name":"playerCollision","path":"scripts/playerCollision/playerCollision.yy",},},
     {"id":{"name":"chefSprite","path":"sprites/chefSprite/chefSprite.yy",},},
     {"id":{"name":"chefPlayer","path":"objects/chefPlayer/chefPlayer.yy",},},
+    {"id":{"name":"colSprite","path":"sprites/colSprite/colSprite.yy",},},
     {"id":{"name":"ratPlayer","path":"objects/ratPlayer/ratPlayer.yy",},},
+    {"id":{"name":"colTile","path":"tilesets/colTile/colTile.yy",},},
     {"id":{"name":"ratSprite","path":"sprites/ratSprite/ratSprite.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
