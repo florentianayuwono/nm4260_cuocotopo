@@ -17,9 +17,9 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"chefSprite","order":16,"path":"sprites/chefSprite/chefSprite.yy",},
-    {"name":"chefPlayer","order":18,"path":"objects/chefPlayer/chefPlayer.yy",},
-    {"name":"ratPlayer","order":19,"path":"objects/ratPlayer/ratPlayer.yy",},
-    {"name":"ratSprite","order":17,"path":"sprites/ratSprite/ratSprite.yy",},
+    {"name":"macros","order":1,"path":"scripts/macros/macros.yy",},
+    {"name":"colSprite","order":2,"path":"sprites/colSprite/colSprite.yy",},
+    {"name":"ratPlayer","order":1,"path":"objects/ratPlayer/ratPlayer.yy",},
+    {"name":"ratSprite","order":1,"path":"sprites/ratSprite/ratSprite.yy",},
   ],
 }
