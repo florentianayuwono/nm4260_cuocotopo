@@ -17,9 +17,14 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"gameObject","order":2,"path":"objects/gameObject/gameObject.yy",},
+    {"name":"kitchenSprite","order":3,"path":"sprites/kitchenSprite/kitchenSprite.yy",},
     {"name":"macros","order":1,"path":"scripts/macros/macros.yy",},
     {"name":"colSprite","order":2,"path":"sprites/colSprite/colSprite.yy",},
+    {"name":"levelOneRoom","order":1,"path":"rooms/levelOneRoom/levelOneRoom.yy",},
+    {"name":"kitchenTile","order":1,"path":"tilesets/kitchenTile/kitchenTile.yy",},
     {"name":"ratPlayer","order":1,"path":"objects/ratPlayer/ratPlayer.yy",},
     {"name":"ratSprite","order":1,"path":"sprites/ratSprite/ratSprite.yy",},
+    {"name":"initRoom","order":2,"path":"rooms/initRoom/initRoom.yy",},
   ],
 }

@@ -1,14 +1,14 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Room1",
+  "name": "parentRoom",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_7B1F0F1","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_1B44FE72","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_7B1F0F1","path":"rooms/parentRoom/parentRoom.yy",},
+    {"name":"inst_1B44FE72","path":"rooms/parentRoom/parentRoom.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -17,17 +17,10 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1B44FE72","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ratPlayer","path":"objects/ratPlayer/ratPlayer.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":64.0,"y":32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Collision","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":20,"SerialiseWidth":10,"TileCompressedData":[
--11,1,-8,-2147483648,-2,1,-5,-2147483648,-2,1,
-1,-2147483648,-5,1,-2,-2147483648,5,1,-2147483648,-2147483648,
-1,1,-5,-2147483648,5,1,-2147483648,-2147483648,1,1,
--8,-2147483648,-3,1,1,-2147483648,-3,1,-3,-2147483648,
--2,1,-4,-2147483648,1,1,-3,-2147483648,-2,1,
--8,-2147483648,-2,1,-8,-2147483648,-12,1,-8,-2147483648,
--2,1,-8,-2147483648,-2,1,-8,-2147483648,-2,1,
--8,-2147483648,-2,1,-8,-2147483648,-2,1,-8,-2147483648,
--2,1,-8,-2147483648,-2,1,-8,-2147483648,-11,1,
-],"TileDataFormat":1,},"tilesetId":{"name":"colTile","path":"tilesets/colTile/colTile.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+-200,0,],"TileDataFormat":1,},"tilesetId":{"name":"colTile","path":"tilesets/colTile/colTile.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"TilesMain","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":0,"SerialiseWidth":0,"TileSerialiseData":[
+],},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
     "name": "Rooms",
