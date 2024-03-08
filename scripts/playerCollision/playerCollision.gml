@@ -37,5 +37,9 @@ function player_collision(){
 	// vertical move commit
 	y += v_speed;
 	
+	// if (_collision) {
+	// 	screen_shake(0.5, 2);
+	// }
+	
 	return _collision;
 }
