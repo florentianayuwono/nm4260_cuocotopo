@@ -8,11 +8,15 @@
   "inheritLayers": false,
   "instanceCreationOrder": [
     {"name":"inst_7A95E7B1","path":"rooms/JYRoom/JYRoom.yy",},
+    {"name":"inst_147D1312","path":"rooms/JYRoom/JYRoom.yy",},
+    {"name":"inst_27088BF0","path":"rooms/JYRoom/JYRoom.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7A95E7B1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Chef","path":"objects/Chef/Chef.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":352.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_147D1312","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Cat","path":"objects/Cat/Cat.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":384.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27088BF0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"CameraManager","path":"objects/CameraManager/CameraManager.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":288.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
 -1169,-2147483648,1,62,-161,-2147483648,-28,80,-58,-2147483648,-28,28,-58,-2147483648,-28,28,-35,-2147483648,-3,0,-3,-2147483648,-9,0,-8,-2147483648,-12,84,3,76,77,78,-12,84,1,28,-37,-2147483648,-6,0,-15,-2147483648,-9,94,-2,96,4,90,91,92,93,-13,94,-70,-2147483648,3,106,107,108,-83,-2147483648,3,35,32,34,-81,-2147483648,-3,0,-78,-2147483648,3,63,62,62,-82,-2147483648,2,62,63,-7,-2147483648,4,67,-2147483648,-2147483648,
@@ -46,8 +50,8 @@
   },
   "sequenceId": null,
   "views": [
-    {"hborder":80,"hport":1080,"hspeed":4,"hview":160,"inherit":false,"objectId":{"name":"Chef","path":"objects/Chef/Chef.yy",},"vborder":40,"visible":true,"vspeed":4,"wport":1920,"wview":320,"xport":0,"xview":0,"yport":0,"yview":0,},
-    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":80,"hport":1080,"hspeed":4,"hview":160,"inherit":false,"objectId":{"name":"Chef","path":"objects/Chef/Chef.yy",},"vborder":40,"visible":true,"vspeed":4,"wport":1920,"wview":320,"xport":0,"xview":160,"yport":0,"yview":260,},
+    {"hborder":80,"hport":768,"hspeed":4,"hview":160,"inherit":false,"objectId":{"name":"Cat","path":"objects/Cat/Cat.yy",},"vborder":40,"visible":false,"vspeed":4,"wport":1366,"wview":320,"xport":0,"xview":700,"yport":0,"yview":300,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},

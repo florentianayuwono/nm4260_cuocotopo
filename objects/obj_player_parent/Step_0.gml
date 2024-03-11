@@ -1,20 +1,31 @@
 /// @description Insert description here
 // You can write your code in this editor
+	phy_rotation = 0;
+	image_angle = 0
+if (global.camera_locked != id) {
+			phy_linear_velocity_x = 0;
+			phy_linear_velocity_y = 0;
+			phy_angular_velocity = 0;
+			
+	return
+}
 
-	
 function obj_player_parent_step() {
 	move_x = 0;
 	move_y = 0;
+	
     // Step Event of obj_player_parent
 		function move_player(){
 			
-
+			is_dashing = false
 			if(dash_curr_cooldown >= 0){
 				dash_curr_cooldown -= delta_time;
+				
 				//show_debug_message(dash_curr_cooldown)
 			}
 			
 			if(curr_dash_durr >= 0){
+				is_dashing = true
 				curr_dash_durr -= delta_time;
 				var lerp_factor = curr_dash_durr / dash_durr;
 				phy_linear_velocity_x = lerp(0, init_dash_velo_x, lerp_factor);
@@ -47,7 +58,8 @@ function obj_player_parent_step() {
 			phy_linear_velocity_y = velocity_y;
 			phy_angular_velocity = 0;
 		
-			if (keyboard_check(vk_shift) && dash_curr_cooldown <= 0) {
+			if (keyboard_check_pressed(vk_shift) && dash_curr_cooldown <= 0) {
+				
 				curr_dash_durr = dash_durr;
 				dash_curr_cooldown = dash_cooldown;
 				var velocity_x = move_x * dash_speed;
@@ -65,21 +77,32 @@ function obj_player_parent_step() {
 		}
 
 		function animate_player(){
+			
+			
 		        if (move_x > 0) {
             image_xscale = 1; // Facing right
         } else if (move_x < 0) {
             image_xscale = -1; // Facing left
         }
 
+		if(is_dashing){
+			if (sprite_index != dash_sprite) {
+				sprite_index = dash_sprite
+				image_index = 0
+			}
+			return;
+		}
         if (move_x != 0 || move_y != 0) {
             // The player is moving
-            if (sprite_index != Chef_Run) { // Check to avoid unnecessary changes
-                sprite_index = Chef_Run;
+            if (sprite_index != run_sprite) { // Check to avoid unnecessary changes
+                sprite_index = run_sprite;
+				image_index = 0
             }
         } else {
             // The player is standing still
-            if (sprite_index != Chef_Still) { // Check to avoid unnecessary changes
-                sprite_index = Chef_Still;
+            if (sprite_index != still_sprite) { // Check to avoid unnecessary changes
+                sprite_index = still_sprite;
+				image_index = 0
             }
         }
 		}

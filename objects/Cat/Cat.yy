@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Rat",
+  "name": "Cat",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -27,15 +27,18 @@
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsShapePoints": [
-    {"x":0.0,"y":0.0,},
-    {"x":32.0,"y":0.0,},
-    {"x":32.0,"y":32.0,},
-    {"x":0.0,"y":32.0,},
+    {"x":4.0,"y":4.0,},
+    {"x":15.0,"y":4.0,},
+    {"x":15.0,"y":14.0,},
+    {"x":4.0,"y":14.0,},
   ],
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "Cat_Run",
+    "path": "sprites/Cat_Run/Cat_Run.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
