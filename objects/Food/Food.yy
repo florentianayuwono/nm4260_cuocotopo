@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Foods",
-    "path": "folders/Objects/JY/Foods.yy",
+    "name": "JY",
+    "path": "folders/Objects/JY.yy",
   },
   "parentObjectId": {
     "name": "Interactable",
@@ -22,7 +22,7 @@
   "physicsLinearDamping": 0.1,
   "physicsObject": false,
   "physicsRestitution": 0.1,
-  "physicsSensor": false,
+  "physicsSensor": true,
   "physicsShape": 1,
   "physicsShapePoints": [
     {"x":0.0,"y":0.0,},
@@ -33,10 +33,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "Sprite13",
-    "path": "sprites/Sprite13/Sprite13.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

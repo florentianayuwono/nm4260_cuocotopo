@@ -11,9 +11,6 @@ if (show_shader) {
 	shader_set(Flash)
 	shd_alpha = shader_get_uniform(Flash, "alpha")
 	shader_set_uniform_f(shd_alpha,( abs(sin(current_time / 250) / 3 )+ 0.5))
-
-	
-
 }
 
 

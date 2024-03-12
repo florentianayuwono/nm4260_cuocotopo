@@ -30,7 +30,7 @@ function obj_player_parent_step() {
 				var lerp_factor = curr_dash_durr / dash_durr;
 				phy_linear_velocity_x = lerp(0, init_dash_velo_x, lerp_factor);
 				phy_linear_velocity_y = lerp(0, init_dash_velo_y, lerp_factor);
-				show_debug_message(lerp_factor)
+				//show_debug_message(lerp_factor)
 				
 				return;
 			}
@@ -111,7 +111,7 @@ function obj_player_parent_step() {
 		function interact_check(){
 		// Check for collision with Interactable object
 		// Determine the direction the player is facing based on move_x and move_y
-		show_debug_message(string(last_dir_x) + "   "+ string(last_dir_y))
+		//show_debug_message(string(last_dir_x) + "   "+ string(last_dir_y))
 		
 		if move_x != 0 || move_y != 0{
 				last_dir_x = sign(move_x);
@@ -120,8 +120,8 @@ function obj_player_parent_step() {
 
 
 		// Perform collision check with adjusted position
-		var obj = instance_place(x + last_dir_x * sprite_width / 2, y + last_dir_y * sprite_height / 2, all);
-		show_debug_message(obj)
+		var obj = instance_place(x + (last_dir_x * pickup_range), y + last_dir_y * pickup_range, Interactable);
+		//show_debug_message(obj)
 		if obj != noone && object_is_ancestor(obj.object_index, Interactable){
 			
 			with(obj){
@@ -134,13 +134,13 @@ function obj_player_parent_step() {
 
 	    if(instance_exists(last_interactable) && (last_interactable != obj || obj == noone )){
 			
-			
 			with(last_interactable){
 				show_shader = false
 			}
 
 		}
 		last_interactable = obj
+		
 		
 	
 	}

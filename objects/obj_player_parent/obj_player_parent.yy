@@ -5,6 +5,7 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":80,"eventType":9,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -23,12 +24,10 @@
   "physicsObject": true,
   "physicsRestitution": 0.1,
   "physicsSensor": false,
-  "physicsShape": 1,
+  "physicsShape": 0,
   "physicsShapePoints": [
-    {"x":6.0,"y":21.0,},
-    {"x":26.0,"y":21.0,},
-    {"x":26.0,"y":36.0,},
-    {"x":6.0,"y":36.0,},
+    {"x":11.0,"y":23.0,},
+    {"x":7.0,"y":23.0,},
   ],
   "physicsStartAwake": true,
   "properties": [],

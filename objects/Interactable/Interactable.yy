@@ -33,10 +33,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "Sprite13",
-    "path": "sprites/Sprite13/Sprite13.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "tags": [
     "Interactable",
