@@ -8,7 +8,7 @@ socket = instance_create_layer(x, y, "Sockets", Socket);
 
 with (socket) {
 	follow = other.id
-	socket_relative_x = 2
+	socket_relative_x = 0
 	socket_relative_y = -5
 	visible = false
 	identity = other.identity

@@ -78,7 +78,25 @@ function interact(){
 			
 				}
 		
+		}else if last_interactable.identity != undefined && socket.visible {
+			if canCombine(socket.identity, last_interactable.identity) {
+				var a = combine(socket.identity, last_interactable.identity)
+				
+				with (last_interactable) {
+					identity = a
+					event_update_socket()
+			
+				}
+		
+				with socket{
+					visible = false
+					identity = undefined
+				}
+				
+			}
+			
 		}
+		
 	
 	}
 
