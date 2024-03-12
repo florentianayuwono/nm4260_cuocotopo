@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (global.camera_locked != id) {
+	return
+}
 
 function interact(){
 	
@@ -79,6 +82,8 @@ function interact(){
 				}
 		
 		}else if last_interactable.identity != undefined && socket.visible {
+			
+			//Combine the 2 items
 			if canCombine(socket.identity, last_interactable.identity) {
 				var a = combine(socket.identity, last_interactable.identity)
 				
