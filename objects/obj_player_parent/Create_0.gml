@@ -19,3 +19,8 @@ still_sprite = Chef_Still
 dash_sprite = Chef_Still
 
 is_dashing = false
+
+last_interactable = undefined
+last_dir_x = 0
+last_dir_y = 0
+

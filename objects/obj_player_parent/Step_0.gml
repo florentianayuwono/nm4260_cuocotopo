@@ -80,9 +80,9 @@ function obj_player_parent_step() {
 			
 			
 		        if (move_x > 0) {
-            image_xscale = 1; // Facing right
+            image_xscale = abs(image_xscale); // Facing right
         } else if (move_x < 0) {
-            image_xscale = -1; // Facing left
+            image_xscale = -abs(image_xscale); // Facing left
         }
 
 		if(is_dashing){
@@ -106,9 +106,48 @@ function obj_player_parent_step() {
             }
         }
 		}
+		
+		
+		function interact_check(){
+		// Check for collision with Interactable object
+		// Determine the direction the player is facing based on move_x and move_y
+		show_debug_message(string(last_dir_x) + "   "+ string(last_dir_y))
+		
+		if move_x != 0 || move_y != 0{
+				last_dir_x = sign(move_x);
+				last_dir_y = sign(move_y);
+		}
+
+
+		// Perform collision check with adjusted position
+		var obj = instance_place(x + last_dir_x * sprite_width / 2, y + last_dir_y * sprite_height / 2, all);
+		show_debug_message(obj)
+		if obj != noone && object_is_ancestor(obj.object_index, Interactable){
+			
+			with(obj){
+				show_shader = true
+			}
+		    // Tint the Interactable object white
+
+		}
+		
+
+	    if(instance_exists(last_interactable) && (last_interactable != obj || obj == noone )){
+			
+			
+			with(last_interactable){
+				show_shader = false
+			}
+
+		}
+		last_interactable = obj
+		
+	
+	}
     
 		move_player();
 		animate_player();
+		interact_check();
 
 
     

@@ -6,3 +6,6 @@ global.chefPlayer = id
 run_sprite = Chef_Run
 still_sprite = Chef_Still
 dash_sprite = Chef_Still
+
+image_xscale = 0.5
+image_yscale = 0.5
