@@ -64,7 +64,15 @@ function interact(){
 			
 		}
 		else if  last_interactable.identity == undefined && !socket.visible {
-			//Not holding anything, so nothing to be done
+			//Not holding anything table is empty. Unless this is a provider
+			if last_interactable.object_index == Provider || object_is_ancestor(last_interactable.object_index, Provider) {
+				with (socket) {
+					visible = true
+					identity = other.last_interactable.base_identity
+					sprite_index = object_get_sprite(identity)
+					
+				}
+			}
 		}else if  last_interactable.identity != undefined && !socket.visible {
 			//Pick up item from table
 				

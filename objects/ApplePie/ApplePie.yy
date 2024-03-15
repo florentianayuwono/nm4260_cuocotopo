@@ -1,18 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "CameraManager",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":32,"eventType":9,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "ApplePie",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "JY",
-    "path": "folders/Objects/JY.yy",
+    "name": "Foods",
+    "path": "folders/Objects/JY/Foods.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "Food",
+    "path": "objects/Food/Food.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -24,11 +24,19 @@
   "physicsRestitution": 0.1,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsShapePoints": [],
+  "physicsShapePoints": [
+    {"x":0.0,"y":0.0,},
+    {"x":15.0,"y":0.0,},
+    {"x":15.0,"y":13.0,},
+    {"x":0.0,"y":13.0,},
+  ],
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_applepie",
+    "path": "sprites/spr_applepie/spr_applepie.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

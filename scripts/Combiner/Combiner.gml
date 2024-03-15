@@ -5,7 +5,9 @@ function combine(a,b){
 		return undefined;
 	}
 	else if foodMatches(a,b,Bacon,Cheese) {
-		return Pie
+		return Soup
+	}else if foodMatches(a,b,Soup,Cheese) {
+		return ApplePie
 	}
 	
 }

@@ -1,18 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "CameraManager",
+  "name": "provider_cheese",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":32,"eventType":9,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "JY",
-    "path": "folders/Objects/JY.yy",
+    "name": "Providers",
+    "path": "folders/Objects/JY/Providers.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "Provider",
+    "path": "objects/Provider/Provider.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,7 +30,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_chest",
+    "path": "sprites/spr_chest/spr_chest.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

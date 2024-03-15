@@ -1,8 +1,8 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_cheese",
-  "bbox_bottom": 13,
+  "name": "spr_applepie",
+  "bbox_bottom": 14,
   "bbox_left": 0,
   "bbox_right": 15,
   "bbox_top": 0,
@@ -13,17 +13,17 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d2a769de-bca5-436a-bbfb-a9727975ae5e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f619cbff-8e9f-4b92-94d3-239b3a3075b0",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 14,
+  "height": 16,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e24dab08-9c9f-4b3a-bdcc-230f2e357b88","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c3505b25-b65b-488d-a76c-d56ce5974b5b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 0,
   "parent": {
     "name": "Food",
     "path": "folders/Sprites/Food.yy",
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_cheese",
+    "name": "spr_applepie",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,13 +54,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d2a769de-bca5-436a-bbfb-a9727975ae5e","path":"sprites/spr_cheese/spr_cheese.yy",},},},"Disabled":false,"id":"95458e13-fcc8-4d7c-8371-206aa72a4b8c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f619cbff-8e9f-4b92-94d3-239b3a3075b0","path":"sprites/spr_applepie/spr_applepie.yy",},},},"Disabled":false,"id":"d088da8e-0a81-4834-bcf2-c26ce46da35b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 8,
-    "yorigin": 7,
+    "xorigin": 0,
+    "yorigin": 0,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
