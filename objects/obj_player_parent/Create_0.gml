@@ -22,7 +22,7 @@ last_interactable = undefined
 last_dir_x = 0
 last_dir_y = 0
 
-pickup_range = 2
+pickup_range = 8
 
 socket = instance_create_layer(x, y, "Sockets", Socket);
 

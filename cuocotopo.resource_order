@@ -57,6 +57,7 @@
     {"name":"kitchenTile","order":1,"path":"tilesets/kitchenTile/kitchenTile.yy",},
     {"name":"Food16","order":14,"path":"sprites/Food16/Food16.yy",},
     {"name":"Soup","order":2,"path":"objects/Soup/Soup.yy",},
+    {"name":"spr_paper","order":20,"path":"sprites/spr_paper/spr_paper.yy",},
     {"name":"Cat_Run","order":8,"path":"sprites/Cat_Run/Cat_Run.yy",},
     {"name":"Chef","order":1,"path":"objects/Chef/Chef.yy",},
     {"name":"ratPlayer","order":1,"path":"objects/ratPlayer/ratPlayer.yy",},

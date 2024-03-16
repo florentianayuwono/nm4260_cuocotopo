@@ -113,14 +113,14 @@ function obj_player_parent_step() {
 		// Determine the direction the player is facing based on move_x and move_y
 		//show_debug_message(string(last_dir_x) + "   "+ string(last_dir_y))
 		
-		if move_x != 0 || move_y != 0{
+		if move_x != 0 || move_y != 0 {
 				last_dir_x = sign(move_x);
 				last_dir_y = sign(move_y);
 		}
 
 
 		// Perform collision check with adjusted position
-		var obj = instance_place(x + (last_dir_x * pickup_range), y + last_dir_y * pickup_range, Interactable);
+		var obj = collision_point(x + (last_dir_x * pickup_range), y + last_dir_y * pickup_range, Interactable, true, true);
 		//show_debug_message(obj)
 		if obj != noone && object_is_ancestor(obj.object_index, Interactable){
 			
