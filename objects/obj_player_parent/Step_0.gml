@@ -37,10 +37,10 @@ function obj_player_parent_step() {
 			
 			
 		        // Check for input and adjust movement direction
-	        if (keyboard_check(ord("W"))) move_y -= 1;
-	        if (keyboard_check(ord("S"))) move_y += 1;
-	        if (keyboard_check(ord("A"))) move_x -= 1;
-	        if (keyboard_check(ord("D"))) move_x += 1;
+	        if (keyboard_check(ord("W")) or keyboard_check(vk_up)) move_y -= 1;
+	        if (keyboard_check(ord("S")) or keyboard_check(vk_down)) move_y += 1;
+	        if (keyboard_check(ord("A")) or keyboard_check(vk_left)) move_x -= 1;
+	        if (keyboard_check(ord("D")) or keyboard_check(vk_right)) move_x += 1;
 
 	        // Normalize diagonal movement so it's not faster
 	        if (move_x != 0 && move_y != 0) {
