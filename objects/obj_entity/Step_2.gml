@@ -1,4 +1,0 @@
-/// @description Entity loop
-
-
-

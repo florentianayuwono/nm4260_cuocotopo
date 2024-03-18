@@ -6,18 +6,6 @@ if (global.camera_locked != id) {
 
 function interact(){
 	
-	
-	// Check if there is a customer to interact
-	var _customerX = lengthdir_x(10, direction);
-	var _customerY = lengthdir_y(10, direction);
-	customer = instance_position(x + _customerX, y + _customerY, obj_customer);
-	
-	if (customer != noone and customer.entity_activate_script != -1) {
-		// Activate the entity script
-		array_push(customer.entity_activate_args, customer)
-		script_execute_ext(customer.entity_activate_script, customer.entity_activate_args);
-	}
-	
 	if last_interactable == noone || last_interactable == undefined{
 		//Place food down
 		if socket.visible && socket != undefined{

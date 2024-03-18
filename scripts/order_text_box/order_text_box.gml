@@ -4,8 +4,7 @@ function order_text_box(_message, _background, _customer_id){
 
 	var _obj = obj_text;
 	
-	with (instance_create_layer(0, 0, "Instances", _obj)) {
-		_obj.customer = _customer_id;
+	with (instance_create_layer(_customer_id.x, _customer_id.y, _customer_id.layer, _obj)) {
 		if (instance_exists(other)) origin_instance = other.id else origin_instance = noone;
 		_obj.order_text = _message;
 		_obj.background = _background;
