@@ -1,15 +1,5 @@
 /// @description Update camera
 
-// update camera pov
-if (!global.switch_player) {
-
-	follow = chefPlayer;
-	
-} else {
-	
-	follow = ratPlayer;
-}
-
 // update destination
 if (instance_exists(follow)) {
 	x_to = follow.x;

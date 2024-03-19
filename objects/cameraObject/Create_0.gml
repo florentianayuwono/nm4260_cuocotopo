@@ -2,7 +2,7 @@
 
 camera = view_camera[0];
 
-follow = chefPlayer;
+follow = global.camera_locked;
 
 view_width_half = camera_get_view_width(camera) * 0.5;
 

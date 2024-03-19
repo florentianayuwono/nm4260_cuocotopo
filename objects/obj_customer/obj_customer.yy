@@ -5,12 +5,15 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":8,"eventType":7,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":73,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Objects/JY/Player.yy",
+    "name": "Customer",
+    "path": "folders/Objects/JY/Customer.yy",
   },
   "parentObjectId": {
     "name": "obj_entity",
@@ -32,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "ratSprite",
-    "path": "sprites/ratSprite/ratSprite.yy",
+    "name": "spr_customer_walk",
+    "path": "sprites/spr_customer_walk/spr_customer_walk.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -9,7 +9,10 @@
     "name": "JY",
     "path": "folders/Objects/JY.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "HideOnPause",
+    "path": "objects/HideOnPause/HideOnPause.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.0,

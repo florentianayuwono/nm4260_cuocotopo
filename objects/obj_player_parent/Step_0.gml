@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 	phy_rotation = 0;
 	image_angle = 0
+
 if (global.camera_locked != id) {
 			phy_linear_velocity_x = 0;
 			phy_linear_velocity_y = 0;

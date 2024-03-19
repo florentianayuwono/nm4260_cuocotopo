@@ -4,3 +4,4 @@
 global.camera_locked = global.chefPlayer
 
 
+global.i_camera = view_camera[0]
