@@ -22,6 +22,7 @@ if seated {
 
 if patience_percent <= 0 && !can_return_walk && !order_complete {
 	can_return_walk = true
+	global.strikes += 1
 	seated = false
 	return_walk()
 	draw_patience = false

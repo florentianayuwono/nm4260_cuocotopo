@@ -75,6 +75,7 @@
     {"name":"inst_4DEBE0C","path":"rooms/JYRoom/JYRoom.yy",},
     {"name":"inst_793F85F0","path":"rooms/JYRoom/JYRoom.yy",},
     {"name":"inst_182BFE9E","path":"rooms/JYRoom/JYRoom.yy",},
+    {"name":"inst_23A0F0E8","path":"rooms/JYRoom/JYRoom.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -135,6 +136,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61FFE44B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"CustomerSpawnLoc","path":"objects/CustomerSpawnLoc/CustomerSpawnLoc.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":253.0,"y":646.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5265A677","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"CustomerSpawnLoc","path":"objects/CustomerSpawnLoc/CustomerSpawnLoc.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":714.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_140CC103","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"CustomerSpawnLoc","path":"objects/CustomerSpawnLoc/CustomerSpawnLoc.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":488.0,"y":126.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_23A0F0E8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"StrikeManager","path":"objects/StrikeManager/StrikeManager.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":288.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Foreground","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
 -1128,-2147483648,1,173,-24,177,1,178,-15,-2147483648,1,62,-44,-2147483648,1,188,-24,0,1,193,-60,-2147483648,1,188,-24,0,1,193,-5,-2147483648,-28,80,-27,-2147483648,1,188,-24,0,1,193,-5,-2147483648,-28,28,-27,-2147483648,1,188,-24,0,1,193,-5,-2147483648,-28,28,-27,-2147483648,1,188,-24,0,1,193,-5,-2147483648,-12,84,3,76,77,78,-12,84,1,28,-27,-2147483648,1,188,-24,0,1,193,-5,-2147483648,
@@ -186,7 +188,7 @@
   },
   "sequenceId": null,
   "views": [
-    {"hborder":80,"hport":1080,"hspeed":4,"hview":160,"inherit":false,"objectId":{"name":"Chef","path":"objects/Chef/Chef.yy",},"vborder":40,"visible":true,"vspeed":4,"wport":1920,"wview":320,"xport":0,"xview":160,"yport":0,"yview":260,},
+    {"hborder":100,"hport":1080,"hspeed":4,"hview":160,"inherit":false,"objectId":{"name":"Chef","path":"objects/Chef/Chef.yy",},"vborder":50,"visible":true,"vspeed":4,"wport":1920,"wview":320,"xport":0,"xview":160,"yport":0,"yview":260,},
     {"hborder":80,"hport":768,"hspeed":4,"hview":160,"inherit":false,"objectId":{"name":"Cat","path":"objects/Cat/Cat.yy",},"vborder":40,"visible":false,"vspeed":4,"wport":1366,"wview":320,"xport":0,"xview":700,"yport":0,"yview":300,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},

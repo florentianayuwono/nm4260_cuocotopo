@@ -118,6 +118,7 @@
     {"id":{"name":"RH","path":"fonts/RH/RH.yy",},},
     {"id":{"name":"hpbar_empty","path":"sprites/hpbar_empty/hpbar_empty.yy",},},
     {"id":{"name":"ratSprite","path":"sprites/ratSprite/ratSprite.yy",},},
+    {"id":{"name":"StrikeManager","path":"objects/StrikeManager/StrikeManager.yy",},},
     {"id":{"name":"GameTimeManager","path":"objects/GameTimeManager/GameTimeManager.yy",},},
     {"id":{"name":"Cheese","path":"objects/Cheese/Cheese.yy",},},
     {"id":{"name":"spr_customer_walk","path":"sprites/spr_customer_walk/spr_customer_walk.yy",},},

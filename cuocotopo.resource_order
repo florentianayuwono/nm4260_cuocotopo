@@ -85,6 +85,7 @@
     {"name":"RH","order":1,"path":"fonts/RH/RH.yy",},
     {"name":"hpbar_empty","order":24,"path":"sprites/hpbar_empty/hpbar_empty.yy",},
     {"name":"ratSprite","order":1,"path":"sprites/ratSprite/ratSprite.yy",},
+    {"name":"StrikeManager","order":10,"path":"objects/StrikeManager/StrikeManager.yy",},
     {"name":"GameTimeManager","order":4,"path":"objects/GameTimeManager/GameTimeManager.yy",},
     {"name":"Cheese","order":1,"path":"objects/Cheese/Cheese.yy",},
     {"name":"spr_customer_walk","order":21,"path":"sprites/spr_customer_walk/spr_customer_walk.yy",},
