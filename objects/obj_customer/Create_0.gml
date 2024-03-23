@@ -3,8 +3,17 @@
 
 food = [ApplePie, Bacon, Cheese, Soup]
 
-order_id = food[floor(random_range(0, array_length(food)))];
-//order_id = ApplePie
+orders = [];
+
+num_orders = floor(random_range(1, 3));
+
+for (var _i = 0; _i < num_orders; _i++) {
+	var _order_id = food[floor(random_range(0, array_length(food)))];
+	// store [oder_id, order_complete]
+	orders[_i] = [_order_id, false];
+}
+
+show_debug_message(orders);
 
 initial_loc_x = x
 initial_loc_y = y
