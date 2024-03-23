@@ -30,3 +30,4 @@ spawner_chance = 0.8
 day_complete = false
 
 //Rush hours last for the same time at 60 and 120s in, lasting for 10s and sets CD to 1 and chance to 0.5
+
