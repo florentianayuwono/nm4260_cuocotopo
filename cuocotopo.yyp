@@ -78,6 +78,7 @@
     {"id":{"name":"order_text_box","path":"scripts/order_text_box/order_text_box.yy",},},
     {"id":{"name":"CustomerSpawnLoc","path":"objects/CustomerSpawnLoc/CustomerSpawnLoc.yy",},},
     {"id":{"name":"kitchenSprite","path":"sprites/kitchenSprite/kitchenSprite.yy",},},
+    {"id":{"name":"snd_bell","path":"sounds/snd_bell/snd_bell.yy",},},
     {"id":{"name":"Interactable","path":"objects/Interactable/Interactable.yy",},},
     {"id":{"name":"obj_player_parent","path":"objects/obj_player_parent/obj_player_parent.yy",},},
     {"id":{"name":"JYRoom","path":"rooms/JYRoom/JYRoom.yy",},},

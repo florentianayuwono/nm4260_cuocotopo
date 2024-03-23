@@ -54,6 +54,7 @@
     {"name":"order_text_box","order":4,"path":"scripts/order_text_box/order_text_box.yy",},
     {"name":"CustomerSpawnLoc","order":1,"path":"objects/CustomerSpawnLoc/CustomerSpawnLoc.yy",},
     {"name":"kitchenSprite","order":3,"path":"sprites/kitchenSprite/kitchenSprite.yy",},
+    {"name":"snd_bell","order":1,"path":"sounds/snd_bell/snd_bell.yy",},
     {"name":"Interactable","order":2,"path":"objects/Interactable/Interactable.yy",},
     {"name":"JYRoom","order":3,"path":"rooms/JYRoom/JYRoom.yy",},
     {"name":"Combiner","order":3,"path":"scripts/Combiner/Combiner.yy",},
