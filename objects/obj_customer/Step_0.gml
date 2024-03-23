@@ -15,12 +15,55 @@ function euclidean_distance(obj1, obj2) {
     return sqrt(dx * dx + dy * dy);
 }
 
-if seated {
+enum CUSTOMER_STATE {
+	THINKING,
+	ORDERING,
+	EATING,
+	LEAVING
+}
+
+var _wait_time = 5;
+
+if (seated && (state == CUSTOMER_STATE.EATING || state == CUSTOMER_STATE.THINKING)) {
+    _wait_time -= 1;
+} else if (seated) {
+	state = CUSTOMER_STATE.THINKING;
+	_wait_time = 5;
+}
+
+// Switch between different states based on wait time
+if (_wait_time <= 0 and CUSTOMER_STATE.THINKING) {
+    state = CUSTOMER_STATE.ORDERING;
+} else if (state == CUSTOMER_STATE.ORDERING and order_complete) {
+    state = CUSTOMER_STATE.EATING;
+	_wait_time = 3;
+} else if (_wait_time <= 0 and CUSTOMER_STATE.EATING) {
+	state = CUSTOMER_STATE.LEAVING;
+}
+
+switch (state) {
+    case CUSTOMER_STATE.EATING:
+        // sprite_index = spr_customer_eating;
+		show_debug_message(string(id) + "is eating")
+        break;
+    case CUSTOMER_STATE.THINKING:
+        // sprite_index = spr_customer_thinking;
+		// show_debug_message(string(id) + "is thinking")
+        break;
+    case CUSTOMER_STATE.ORDERING:
+	case CUSTOMER_STATE.LEAVING:
+        // default sprite
+		show_debug_message(string(id) + "is ordering / leaving")
+        break;
+}
+
+
+if seated && CUSTOMER_STATE.ORDERING {
 	patience_curr_dur -= delta_time/1000000
 	patience_percent = patience_curr_dur/patience_dur * 100
 }
 
-if patience_percent <= 0 && !can_return_walk && !order_complete {
+if patience_percent <= 0 && !can_return_walk && !CUSTOMER_STATE.LEAVING {
 	can_return_walk = true
 	global.strikes += 1
 	seated = false

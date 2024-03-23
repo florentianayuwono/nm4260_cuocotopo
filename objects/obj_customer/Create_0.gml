@@ -23,6 +23,7 @@ targetTable = undefined
 
 order_complete = false
 seated = false
+state = undefined
 
 path = path_add()
 prev_dir = 0
