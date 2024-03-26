@@ -42,7 +42,6 @@ start_walk = function start_walk() {
 	mp_grid_path(global.grid,path,x,y,targetTable.x ,targetTable.y - 8,1);
 	path_start(path,1,path_action_stop,1)
 	show_debug_message("start walk")
-	
 	with targetTable{
 		able_to_serve = false	
 	}
