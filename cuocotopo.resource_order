@@ -59,6 +59,7 @@
     {"name":"JYRoom","order":3,"path":"rooms/JYRoom/JYRoom.yy",},
     {"name":"Combiner","order":3,"path":"scripts/Combiner/Combiner.yy",},
     {"name":"Dungeon_Tileset","order":15,"path":"sprites/Dungeon_Tileset/Dungeon_Tileset.yy",},
+    {"name":"snd_customer_order","order":2,"path":"sounds/snd_customer_order/snd_customer_order.yy",},
     {"name":"macros","order":1,"path":"scripts/macros/macros.yy",},
     {"name":"spr_cheese","order":1,"path":"sprites/spr_cheese/spr_cheese.yy",},
     {"name":"Pathfinding","order":1,"path":"objects/Pathfinding/Pathfinding.yy",},

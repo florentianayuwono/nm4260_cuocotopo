@@ -85,6 +85,7 @@
     {"id":{"name":"Combiner","path":"scripts/Combiner/Combiner.yy",},},
     {"id":{"name":"Dungeon_Tileset","path":"sprites/Dungeon_Tileset/Dungeon_Tileset.yy",},},
     {"id":{"name":"Flash","path":"shaders/Flash/Flash.yy",},},
+    {"id":{"name":"snd_customer_order","path":"sounds/snd_customer_order/snd_customer_order.yy",},},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},},
     {"id":{"name":"spr_cheese","path":"sprites/spr_cheese/spr_cheese.yy",},},
     {"id":{"name":"Pathfinding","path":"objects/Pathfinding/Pathfinding.yy",},},

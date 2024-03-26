@@ -122,7 +122,7 @@ function obj_player_parent_step() {
 
 
 		// Perform collision check with adjusted position
-		var obj = collision_point(x + (last_dir_x * pickup_range), y + last_dir_y * pickup_range, Interactable, true, true);
+		var obj = collision_point(x + (last_dir_x * pickup_range), y + last_dir_y * pickup_range + 4, Interactable, true, true);
 		//show_debug_message(obj)
 		if obj != noone && object_is_ancestor(obj.object_index, Interactable){
 			
